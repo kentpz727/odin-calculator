@@ -1,0 +1,34 @@
+#display {
+  max-width: 320px;
+  margin: 30px auto 10px auto;
+  padding: 10px;
+  border: 2px solid #222;
+  font-size: 2rem;
+  text-align: right;
+  background: #fff;
+  color: #222;
+  border-radius: 6px;
+}
+
+#calcButtons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  max-width: 320px;
+  margin: 20px auto;
+}
+
+#calcButtons button {
+  padding: 20px;
+  font-size: 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #f4f4f4;
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s;
+}
+
+#calcButtons button:hover {
+  background: #e0e0e0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
